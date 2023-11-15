@@ -1,0 +1,12 @@
+.grid-table {
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .grid-cell {
+    border: 1px solid #000; /* Couleur et épaisseur de la bordure */
+    padding: 10px; /* Ajustez la marge intérieure selon vos besoins */
+    text-align: center;
+    height: 5px;
+     /* Centre le texte à l'intérieur de la cellule */
+  }
