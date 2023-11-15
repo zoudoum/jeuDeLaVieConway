@@ -2,7 +2,8 @@
 <h1 id="titre">Jeu de la vie</h1>
 <table class="grid-table">
   <tr *ngFor="let row of grid; let rowIndex = index">
-    <td *ngFor="let col of row; let colIndex = index" class="grid-cell" [class.green-background]="grid[rowIndex][colIndex]" >
+    <td *ngFor="let col of row; let colIndex = index" class="grid-cell" 
+    [class.green-background]="grid[rowIndex][colIndex]" (click)="onClickCell(rowIndex, colIndex)" >
     </td>
   </tr>
 </table>

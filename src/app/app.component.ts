@@ -15,7 +15,7 @@ export class AppComponent {
   ngOnInit(): void {
     this.initialiserGrid();
     this.initialiserGridActive()
- 
+   
   }
 
   initialiserGrid(){
@@ -35,6 +35,12 @@ export class AppComponent {
   this.grid[3][2] = true;
   this.grid[3][3] = true;
 }
-
+onClickCell(rowIndex: number, colIndex: number) {
+  if( this.grid[rowIndex][colIndex]==false)
+  this.grid[rowIndex][colIndex]=true;
+  else{
+    this.grid[rowIndex][colIndex]=false;
+  }
+}
 
 }
