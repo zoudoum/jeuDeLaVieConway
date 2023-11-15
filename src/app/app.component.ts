@@ -11,7 +11,14 @@ export class AppComponent {
   gridRows = 20;
   grid: boolean[][] = [];
 
-  constructor() {
+
+  ngOnInit(): void {
+    this.initialiserGrid();
+    this.initialiserGridActive()
+ 
+  }
+
+  initialiserGrid(){
     for (let i = 0; i < this.gridRows; i++) {
       const row = [];
       for (let j = 0; j < this.gridColumns; j++) {
@@ -19,8 +26,15 @@ export class AppComponent {
       }
       this.grid.push(row);
     }
-    
+
   }
+   initialiserGridActive(){
+  this.grid[1][2] = true;
+  this.grid[2][3] = true;
+  this.grid[3][1] = true;
+  this.grid[3][2] = true;
+  this.grid[3][3] = true;
+}
 
 
 }
