@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'jeuDeLaVieJohnConway';
   gridColumns=30;
-  gridRows=20;
+  gridRows=15;
   grid: boolean[][]=[];
   jouer:boolean=true;
   private intervalId: any;
