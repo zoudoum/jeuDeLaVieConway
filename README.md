@@ -1,27 +1,58 @@
-# JeuDeLaVieJohnConway
+# Jeu de la Vie de Conway
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+## Aperçu
 
-## Development server
+Ce projet est une implémentation en Angular du Jeu de la Vie de Conway, conçu par John Horton Conway. Le jeu consiste en une grille de cellules qui évoluent au fil du temps en suivant des règles spécifiques.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Prérequis
 
-## Code scaffolding
+Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
+- [Node.js](https://nodejs.org/en/download)
+- [Angular CLI](https://angular.io/cli) (installez-le avec la commande `npm install -g @angular/cli`)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+1. **Cloner le Dépôt (privé):**
+    ```bash
+    git clone https://github.com/votre-nom/jeu-de-la-vie.git
+    ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. **Accéder au Répertoire du Projet :**
+    ```bash
+    cd jeu-de-la-vie
+    ```
 
-## Running unit tests
+3. **Installer les Dépendances :**
+    ```bash
+    npm install
+    ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Exécution de l'Application
 
-## Running end-to-end tests
+1. **Démarrer le Serveur de Développement Angular :**
+    ```bash
+    ng serve
+    ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. **Ouvrir dans le Navigateur :**
+    Ouvrez votre navigateur et accédez à [http://localhost:4200/](http://localhost:4200/).
 
-## Further help
+## Utilisation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Cliquez sur les cellules de la grille pour changer leur état.
+- Utilisez le bouton "Commencer" pour lancer la simulation automatique.
+- Utilisez le bouton "Stop" pour mettre la simulation en pause.
+- Utilisez le bouton "Réinitialiser" pour effacer la grille et réinitialiser la simulation.
+
+## Fonctionnalités
+
+- La grille est initialement peuplée avec un motif prédéfini.
+- La simulation suit les règles du Jeu de la Vie de Conway.
+- Le bouton "Commencer" lance l'évolution automatique de la grille.
+- Le bouton "Stop" met la simulation en pause.
+- Le bouton "Réinitialiser" efface la grille et réinitialise la simulation.
+
+## Structure du Dossier
+
+- `/src` : Contient le code source de l'application Angular.
+- `/src/app` : Comprend les composants principaux et les services de l'application.
