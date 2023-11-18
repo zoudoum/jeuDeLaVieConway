@@ -58,7 +58,7 @@ clearGrid() {
 private startGame() {
   this.intervalId = setInterval(() => {  
       this.updateGrid();
-  }, 2000);
+  }, 500);
 }
 
 private stopGame() {
