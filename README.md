@@ -3,7 +3,9 @@
 ## Aperçu
 
 Ce projet est une implémentation en Angular du Jeu de la Vie de Conway, conçu par John Horton Conway. Le jeu consiste en une grille de cellules qui évoluent au fil du temps en suivant des règles spécifiques.
+## Lien vers le Jeu
 
+Le jeu est disponible en ligne. Vous pouvez y accéder [ici](https://jeu-de-la-vie.netlify.app/).
 ## Prérequis
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
